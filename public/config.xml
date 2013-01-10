@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.sencha.myNotes"
+        versionCode="2" 
+        version   = "1.0.2">
+
+    <name>myNotes</name>
+
+    <description>
+        an App based in Sencha Touch, connectes to felipillocrew.com/apis/notes 
+    </description>
+
+    <author href="http://felipillocrew.com" email="felipillocrew@gmail.com">
+        Felipillo Crew
+    </author>
+	
+	<preference name="orientation" value="portrait" />
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="true" />
+	
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name="android-maxSdkVersion" value="15" />
+	
+	<preference name="android-installLocation" value="auto" />
+	
+	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	
+	<!--<feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>-->
+
+</widget>
